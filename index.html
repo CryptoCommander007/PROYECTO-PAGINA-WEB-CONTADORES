@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Creative - Start Bootstrap Theme</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Bootstrap Icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css" />
+        <!-- SimpleLightbox plugin CSS-->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+        <link href="sp_style.css" rel="stylesheet" />
+        <style>
+            .whatsapp-button {
+                position: fixed;
+                bottom: 20px; /* Ajusta la distancia desde abajo */
+                right: 20px; /* Ajusta la distancia desde la derecha */
+                background-color: #25d366; /* Color de fondo del botón de WhatsApp */
+                width: 60px; /* Ancho del botón */
+                height: 60px; /* Alto del botón */
+                border-radius: 50%; /* Para hacer el botón redondeado */
+                text-align: center;
+                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15); /* Sombra del botón */
+                z-index: 1000; /* Asegura que esté sobre otros elementos */
+            }
+
+            .whatsapp-button a {
+                display: block;
+                width: 100%;
+                height: 100%;
+                line-height: 60px; /* Alinea el icono verticalmente */
+                text-decoration: none;
+                color: #fff; /* Color del icono */
+            }
+
+        </style>
+    </head>
+    <body id="page-top">
+        <div class="sp-overlay" id="sp-overlay">
+            <div class="sp-title">
+                <h4 style="font-size: 24px; color: #fff; opacity: 1; transition: opacity 0.5s ease, transform 0.5s ease; text-align: center; line-height: 1.5; margin-top: 20%;">
+                Bienvenido a contadoresexcelencia.cl
+                </h4>
+            </div>
+            <div class="sp-spinner"></div>
+        </div>
+        <!-- Botón de WhatsApp -->
+        <div class="whatsapp-button">
+            <a href="https://api.whatsapp.com/send?phone=TUNUMERO&text=Hola%20desde%20tu%20sitio%20web" target="_blank">
+                <i class="bi bi-whatsapp fs-3 text-white"></i>
+            </a>
+        </div>
+
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+            <div class="container px-4 px-lg-5">
+                <a class="navbar-brand" href="#page-top">Contadores Excelencia S.A.</a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto my-2 my-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="#about">Nosotros</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#services">Servicios</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#por-que-elegirnos">¿Por qué elegirnos?</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#temas-de-interes">Temas de Interes</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contactanos</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead">
+            <div class="container px-4 px-lg-5 h-100">
+                <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center">
+                    <div class="col-lg-8 align-self-end">
+                        <h1 class="text-white font-weight-bold">Tu Mejor Opción para Servicios Contables Profesionales</h1>
+                        <hr class="divider" />
+                    </div>
+                    <div class="col-lg-8 align-self-baseline">
+                        <p class="text-white-75 mb-5">Contadores Excelencia S.A. facilita soluciones contables y tributarias de primera calidad utilizando nuestra amplia experiencia y conocimiento en el marco legal chileno. ¡Descubre nuestros servicios y comienza a optimizar la gestión financiera de tu empresa hoy mismo!</p>
+                        <a class="btn btn-primary btn-xl" href="#contact">Contactanos</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- About-->
+        <section class="page-section bg-primary" id="about">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-8 text-center">
+                        <h2 class="text-white mt-0">Contadores Excelencia S.A. es una firma líder en el mercado chileno</h2>
+                        <hr class="divider divider-light" />
+                        <p class="text-white-75 mb-4"> Especializada en servicios contables y tributarios. Con más de 15 años de experiencia, nos hemos consolidado como un socio estratégico para empresas de diversos sectores, ofreciendo soluciones personalizadas y un servicio de alta calidad.</p>
+                        <a class="btn btn-light btn-xl" href="#contact">Mas información</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Services-->
+        <section class="page-section" id="services">
+            <div class="container px-4 px-lg-5">
+                <h2 class="text-center mt-0">Nuestros Servicios</h2>
+                <hr class="divider" />
+                <div class="row gx-4 gx-lg-5">
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="mt-5">
+                            <div class="mb-2"><i class="bi bi-file-earmark-text fs-1 text-primary"></i></div>
+                            <h3 class="h4 mb-2">Asesoría Contable</h3>
+                            <p class="text-muted mb-0">Gestión integral de contabilidad para empresas, cumpliendo con las normativas tributarias vigentes.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="mt-5">
+                            <div class="mb-2"><i class="bi bi-person-lines-fill fs-1 text-primary"></i></div>
+                            <h3 class="h4 mb-2">Remuneraciones</h3>
+                            <p class="text-muted mb-0">Confección de remuneraciones mensuales, cálculo de imposiciones y gestión de contratos laborales.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="mt-5">
+                            <div class="mb-2"><i class="bi bi-calculator-fill fs-1 text-primary"></i></div>
+                            <h3 class="h4 mb-2">Planificación Tributaria</h3>
+                            <p class="text-muted mb-0">Optimización de la carga tributaria y asesoramiento en estrategias fiscales eficientes.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="mt-5">
+                            <div class="mb-2"><i class="bi bi-gear-fill fs-1 text-primary"></i></div>
+                            <h3 class="h4 mb-2">Consultoría Empresarial</h3>
+                            <p class="text-muted mb-0">Análisis y recomendaciones para el cumplimiento normativo y optimización de procesos contables.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="page-section bg-light" id="por-que-elegirnos">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-10 text-center">
+                        <h2 class="text-center mt-0">¿Por qué elegirnos?</h2>
+                        <hr class="divider" />
+                    </div>
+                </div>
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-4 col-md-6 text-center">
+                        <div class="mt-5">
+                            <div class="mb-3"><i class="bi bi-trophy fs-1 text-primary"></i></div>
+                            <h3 class="h4 mb-2">Experiencia y Trayectoria</h3>
+                            <p class="text-muted mb-0">Contamos con más de una década de experiencia en el mercado, respaldando a empresas de todos los tamaños en la región.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 text-center">
+                        <div class="mt-5">
+                            <div class="mb-3"><i class="bi bi-people fs-1 text-primary"></i></div>
+                            <h3 class="h4 mb-2">Equipo Profesional Calificado</h3>
+                            <p class="text-muted mb-0">Nuestro equipo está compuesto por contadores y especialistas en legislación tributaria chilena, comprometidos con la excelencia y la atención personalizada a cada cliente.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 text-center">
+                        <div class="mt-5">
+                            <div class="mb-3"><i class="bi bi-check-circle fs-1 text-primary"></i></div>
+                            <h3 class="h4 mb-2">Compromiso con la Calidad</h3>
+                            <p class="text-muted mb-0">Nos dedicamos a brindar un servicio de calidad superior, asegurando la precisión y la confiabilidad en cada proceso contable y tributario.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 text-center">
+                        <div class="mt-5">
+                            <div class="mb-3"><i class="bi bi-people-fill fs-1 text-primary"></i></div>
+                            <h3 class="h4 mb-2">Enfoque Personalizado</h3>
+                            <p class="text-muted mb-0">Adaptamos nuestras soluciones a las necesidades específicas de cada cliente, proporcionando respuestas rápidas y eficientes a sus desafíos contables y tributarios.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 text-center">
+                        <div class="mt-5">
+                            <div class="mb-3"><i class="bi bi-lightbulb fs-1 text-primary"></i></div>
+                            <h3 class="h4 mb-2">Innovación y Tecnología</h3>
+                            <p class="text-muted mb-0">Utilizamos tecnología de vanguardia en nuestros procesos para garantizar eficiencia operativa y seguridad en la gestión de datos financieros.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 text-center">
+                        <div class="mt-5">
+                            <div class="mb-3"><i class="bi bi-shield-fill-check fs-1 text-primary"></i></div>
+                            <h3 class="h4 mb-2">Ética Profesional</h3>
+                            <p class="text-muted mb-0">Nos regimos por los más altos estándares éticos y de integridad, asegurando la confidencialidad y el cumplimiento estricto de la normativa legal.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        
+        <div id="temas-de-interes" style="margin-bottom: 100px;">
+            <div class="container-fluid p-0">
+                <div class="row g-0 justify-content-center">
+                    <div class="col-lg-10 col-md-12 text-center mb-5">
+                        <h2 class="text-center mt-0">Temas de Interés</h2>
+                        <hr class="divider" />
+                    </div>
+                </div>
+                <div class="row g-0 justify-content-center">
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box text-center" href="#">
+                            <div class="icon-box">
+                                <i class="bi bi-file-earmark-text fs-3 text-primary"></i>
+                            </div>
+                            <div class="portfolio-box-caption">
+                                <div class="project-category text-white-50">Legislación Tributaria Chilena</div>
+                                <div class="project-name">Información detallada sobre la legislación vigente en Chile.</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box text-center" href="#">
+                            <div class="icon-box">
+                                <i class="bi bi-journal-check fs-3 text-primary"></i>
+                            </div>
+                            <div class="portfolio-box-caption">
+                                <div class="project-category text-white-50">Normativas Contables Vigentes</div>
+                                <div class="project-name">Actualización y cumplimiento de las normas contables en Chile.</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box text-center" href="#">
+                            <div class="icon-box">
+                                <i class="bi bi-calculator-fill fs-3 text-primary"></i>
+                            </div>
+                            <div class="portfolio-box-caption">
+                                <div class="project-category text-white-50">Planificación Tributaria Estratégica</div>
+                                <div class="project-name">Estrategias para optimizar la carga tributaria de tu empresa.</div>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- Puedes agregar más temas de interés aquí -->
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box text-center" href="#">
+                            <div class="icon-box">
+                                <i class="bi bi-gear-fill fs-3 text-primary"></i>
+                            </div>
+                            <div class="portfolio-box-caption">
+                                <div class="project-category text-white-50">Consultoría en Cumplimiento Normativo</div>
+                                <div class="project-name">Asesoramiento para cumplir con las normativas contables y tributarias.</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box text-center" href="#">
+                            <div class="icon-box">
+                                <i class="bi bi-shield-fill-check fs-3 text-primary"></i>
+                            </div>
+                            <div class="portfolio-box-caption">
+                                <div class="project-category text-white-50">Ética Profesional en Contabilidad</div>
+                                <div class="project-name">Compromiso con la integridad y confidencialidad en la gestión financiera.</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box text-center" href="#">
+                            <div class="icon-box">
+                                <i class="bi bi-lightbulb fs-3 text-primary"></i>
+                            </div>
+                            <div class="portfolio-box-caption">
+                                <div class="project-category text-white-50">Innovación en Tecnología Financiera</div>
+                                <div class="project-name">Utilización de tecnología avanzada para mejorar la eficiencia operativa.</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Call to action-->
+    <section class="page-section bg-dark text-white">
+        <div class="container px-4 px-lg-5 text-center">
+            <h2 class="mb-4">Optimiza tus Finanzas con Nosotros</h2>
+            <p class="lead mb-4">Descarga nuestro eBook gratuito y obtén consejos exclusivos para gestionar eficientemente tus obligaciones contables y tributarias.</p>
+            <a class="btn btn-light btn-xl" href="#">Descargar Ahora</a>
+        </div>
+    </section>
+
+    <!-- Contact-->
+    <section class="page-section" id="contact">
+        <div class="container px-4 px-lg-5">
+            <div class="row gx-4 gx-lg-5 justify-content-center">
+                <div class="col-lg-8 col-xl-6 text-center">
+                    <h2 class="mt-0">¡Pongámonos en Contacto!</h2>
+                    <hr class="divider" />
+                    <p class="text-muted mb-5">¿Listo para comenzar tu próximo proyecto con nosotros? Envíanos un mensaje y te responderemos lo antes posible.</p>
+                </div>
+            </div>
+            <div class="row gx-4 gx-lg-5 justify-content-center mb-5">
+                <div class="col-lg-6">
+                    <!-- Formulario de Contacto -->
+                    <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+                        <!-- Nombre -->
+                        <div class="form-floating mb-3">
+                            <input class="form-control" id="name" type="text" placeholder="Ingresa tu nombre..." data-sb-validations="required" />
+                            <label for="name">Nombre completo</label>
+                            <div class="invalid-feedback" data-sb-feedback="name:required">Se requiere un nombre.</div>
+                        </div>
+                        <!-- Correo Electrónico -->
+                        <div class="form-floating mb-3">
+                            <input class="form-control" id="email" type="email" placeholder="nombre@ejemplo.com" data-sb-validations="required,email" />
+                            <label for="email">Correo electrónico</label>
+                            <div class="invalid-feedback" data-sb-feedback="email:required">Se requiere un correo electrónico.</div>
+                            <div class="invalid-feedback" data-sb-feedback="email:email">El correo electrónico no es válido.</div>
+                        </div>
+                        <!-- Número de Teléfono -->
+                        <div class="form-floating mb-3">
+                            <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890" data-sb-validations="required" />
+                            <label for="phone">Número de teléfono</label>
+                            <div class="invalid-feedback" data-sb-feedback="phone:required">Se requiere un número de teléfono.</div>
+                        </div>
+                        <!-- Mensaje -->
+                        <div class="form-floating mb-3">
+                            <textarea class="form-control" id="message" placeholder="Ingresa tu mensaje aquí..." style="height: 10rem" data-sb-validations="required"></textarea>
+                            <label for="message">Mensaje</label>
+                            <div class="invalid-feedback" data-sb-feedback="message:required">Se requiere un mensaje.</div>
+                        </div>
+                        <!-- Mensaje de Éxito -->
+                        <div class="d-none" id="submitSuccessMessage">
+                            <div class="text-center mb-3">
+                                <div class="fw-bolder">¡Envío del formulario exitoso!</div>
+                                Para activar este formulario, regístrate en
+                                <br />
+                                <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+                            </div>
+                        </div>
+                        <!-- Mensaje de Error -->
+                        <div class="d-none" id="submitErrorMessage">
+                            <div class="text-center text-danger mb-3">¡Error al enviar el mensaje!</div>
+                        </div>
+                        <!-- Botón de Enviar -->
+                        <div class="d-grid"><button class="btn btn-primary btn-xl disabled" id="submitButton" type="submit">Enviar</button></div>
+                    </form>
+                </div>
+            </div>
+            <div class="row gx-4 gx-lg-5 justify-content-center">
+                <div class="col-lg-4 text-center mb-5 mb-lg-0">
+                    <i class="bi bi-phone fs-2 mb-3 text-muted"></i>
+                    <div>+569 9999 9999</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Redes Sociales -->
+    <section class="page-section bg-light" id="redes-sociales">
+        <div class="container px-4 px-lg-5">
+            <div class="row gx-4 gx-lg-5 justify-content-center">
+                <div class="col-lg-8 col-xl-6 text-center">
+                    <h2 class="mb-4">Síguenos en Redes Sociales</h2>
+                    <p class="text-muted mb-5">Conéctate con nosotros en nuestras redes sociales para mantenerte informado sobre nuestras últimas noticias y actualizaciones.</p>
+                </div>
+            </div>
+            <div class="row gx-4 gx-lg-5 justify-content-center">
+                <div class="col-lg-2 col-6 text-center">
+                    <a href="#" class="text-decoration-none">
+                        <i class="bi bi-facebook fs-3 text-primary"></i>
+                        <p class="text-muted mb-0">Facebook</p>
+                    </a>
+                </div>
+                <div class="col-lg-2 col-6 text-center">
+                    <a href="#" class="text-decoration-none">
+                        <i class="bi bi-instagram fs-3 text-primary"></i>
+                        <p class="text-muted mb-0">Instagram</p>
+                    </a>
+                </div>
+                <div class="col-lg-2 col-6 text-center">
+                    <a href="#" class="text-decoration-none">
+                        <i class="bi bi-linkedin fs-3 text-primary"></i>
+                        <p class="text-muted mb-0">LinkedIn</p>
+                    </a>
+                </div>
+                <div class="col-lg-2 col-6 text-center">
+                    <a href="#" class="text-decoration-none">
+                        <i class="bi bi-whatsapp fs-3 text-primary"></i>
+                        <p class="text-muted mb-0">WhatsApp</p>
+                    </a>
+                </div>
+                <div class="col-lg-2 col-6 text-center">
+                    <a href="#" class="text-decoration-none">
+                        <i class="bi bi-youtube fs-3 text-primary"></i>
+                        <p class="text-muted mb-0">YouTube</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        
+    <!-- Footer -->
+    <footer class="bg-dark text-white">
+        <div class="container px-4 px-lg-5">
+            <div class="row gx-4 gx-lg-5 py-4 justify-content-center">
+                <div class="col-lg-8 col-xl-6 text-center">
+                    <h2 class="mb-4">Contáctanos</h2>
+                    <p class="text-muted mb-5">Estamos aquí para ayudarte con tus necesidades contables y tributarias. Ponte en contacto con nosotros hoy mismo.</p>
+                    <form>
+                        <div class="row gx-4 gx-lg-5">
+                            <div class="col">
+                                <input type="email" class="form-control" placeholder="Ingresa tu correo electrónico..." aria-label="Ingresa tu correo electrónico..." />
+                            </div>
+                            <div class="col-auto">
+                                <button class="btn btn-primary btn-sm" type="submit">Suscribirse</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="row gx-4 gx-lg-5 justify-content-center">
+                <div class="col-lg-4 text-center mb-5 mb-lg-0">
+                    <i class="bi bi-phone fs-2 mb-3 text-muted"></i>
+                    <div>+569 9999 9999</div>
+                </div>
+                <div class="col-lg-4 text-center mb-5 mb-lg-0">
+                    <i class="bi bi-envelope fs-2 mb-3 text-muted"></i>
+                    <div>info@contadoresexcelenecia.com</div>
+                </div>
+            </div>
+            <div class="row gx-4 gx-lg-5 justify-content-center mt-5">
+                <div class="col-lg-6">
+                    <p class="text-center text-muted small mb-0">&copy; 2024 Tu Empresa Contable. Todos los derechos reservados.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- SimpleLightbox plugin JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+    <script src="sp_script.js"></script>
+    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+    <!-- * *                               SB Forms JS                               * *-->
+    <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    </body>
+</html>
